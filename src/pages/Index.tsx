@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import heroImage from "@/assets/orbit.webp";
-import roomSingle from "@/assets/2bednew.png";
-import roomDouble from "@/assets/3bednew.png";
+import roomSingle from "@/assets/2bednewnew.jpeg";
+import roomDouble from "@/assets/room.png";
 import roomTriple from "@/assets/4bednew.png";
 
 const highlights = [
@@ -202,6 +202,41 @@ const Index = () => {
               <Clock className="h-10 w-10 mx-auto mb-3" />
               <p className="font-medium">Power Backup</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mess Highlights */}
+      <section className="py-12 bg-card">
+        <div className="container">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">Mess — Hot & Hygienic Food</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Hot, delicious, healthy, and hygienic food with a variety of menu options. ISO-certified kitchen with a valid Food Safety license.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Utensils className="h-8 w-8 mx-auto mb-3 text-primary" />
+                <h3 className="text-lg font-semibold mb-2">Hot & Delicious</h3>
+                <p className="text-muted-foreground">Prepared fresh daily and served hot to keep meals tasty and satisfying.</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <Shield className="h-8 w-8 mx-auto mb-3 text-primary" />
+                <h3 className="text-lg font-semibold mb-2">Healthy & Hygienic</h3>
+                <p className="text-muted-foreground">ISO-certified kitchen with strict hygiene practices and a valid Food Safety license.</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6">
+                <MapPin className="h-8 w-8 mx-auto mb-3 text-primary" />
+                <h3 className="text-lg font-semibold mb-2">Varied Menu</h3>
+                <p className="text-muted-foreground">Daily rotating menus offering a variety of options to suit different tastes and diets.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

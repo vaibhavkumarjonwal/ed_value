@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Layout from "@/components/Layout";
 import roomSingle from "@/assets/4bednew.png";
-import roomDouble from "@/assets/2bednew.png";
-import roomTriple from "@/assets/3bednew.png";
+import roomDouble from "@/assets/2bednewnew.jpeg";
+import roomTriple from "@/assets/room.png";
 
 const rooms = [
   {
@@ -88,7 +88,7 @@ const Rooms = () => {
         </div>
       </section>
 
-      Room Cards
+      
       <section className="py-16">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

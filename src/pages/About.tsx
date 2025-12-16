@@ -88,7 +88,7 @@ const About = () => {
             "NIFT, Gandhinagar",
             "DAIICT",
             "NIPER",
-            "Deakin University",
+            // "Deakin University",
             "Working professionals from TCS, Odoo, GIFT City & Hitachi",
           ].map((item, index) => (
             <li key={index} className="flex items-center gap-3">
