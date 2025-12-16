@@ -111,7 +111,7 @@ const Amenities = () => {
       </section>
 
       {/* Highlight Section */}
-      <section className="py-16 bg-primary">
+      {/* <section className="py-16 bg-primary">
         <div className="container">
           <div className="text-center text-primary-foreground">
             <h2 className="text-3xl font-bold mb-4">Everything Included</h2>
@@ -120,7 +120,7 @@ const Amenities = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Additional Info */}
       <section className="py-16 bg-card">

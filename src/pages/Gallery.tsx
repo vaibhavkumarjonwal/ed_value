@@ -6,7 +6,7 @@ import roomDouble from "@/assets/3bed.jpeg";
 import roomTriple from "@/assets/4bed.jpeg";
 import commonArea from "@/assets/1.png";
 import washroom from "@/assets/washroom.png";
-import dining from "@/assets/4.png";
+import cooridoor from "@/assets/2.png";
 import heroImage from "@/assets/orbit.png";
 import water from "@/assets/common3.png";
 import lift from "@/assets/common2.png";
@@ -23,12 +23,12 @@ const galleryImages = [
   { src: roomDouble, alt: "Triple Sharing Room", category: "Rooms" },
   { src: roomTriple, alt: "Four Sharing Room", category: "Rooms" },
   { src: commonArea, alt: "Night View", category: "Building" },
-  { src: dining, alt: "Mess Area", category: "Common Areas" },
+  { src: cooridoor, alt: "Corridoor", category: "Common Areas" },
   { src: washroom, alt: "Clean Washroom Facilities", category: "Facilities" },
   { src: water, alt: "Water Cooler", category: "Facilities" },
   { src: lift, alt: "Lift", category: "Facilities" },
   { src: balcony, alt: "Balcony", category: "Rooms" },
-  { src: mess, alt: "Mess", category: "Common Areas" },
+  { src: mess, alt: "Mess Area", category: "Common Areas" },
 ];
 
 const categories = ["All", "Rooms", "Common Areas", "Building", "Facilities"];

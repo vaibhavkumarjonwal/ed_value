@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import heroImage from "@/assets/orbit.webp";
-import roomSingle from "@/assets/2bed.jpeg";
-import roomDouble from "@/assets/3bed.jpeg";
-import roomTriple from "@/assets/4bed.jpeg";
+import roomSingle from "@/assets/2bednew.png";
+import roomDouble from "@/assets/3bednew.png";
+import roomTriple from "@/assets/4bednew.png";
 
 const highlights = [
   {
@@ -42,7 +42,7 @@ const roomTypes = [
   {
     name: "Triple Sharing",
     // price: "₹10,000",
-    image: roomTriple,
+    image: roomDouble,
     features: ["Comfortable Shared Accommodation", "Shared facilities", "Three Individual Study Desks"],
   },
 

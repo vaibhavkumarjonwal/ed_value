@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Layout from "@/components/Layout";
-import roomSingle from "@/assets/4bed.jpeg";
-import roomDouble from "@/assets/2bed.jpeg";
-import roomTriple from "@/assets/3bed.jpeg";
+import roomSingle from "@/assets/4bednew.png";
+import roomDouble from "@/assets/2bednew.png";
+import roomTriple from "@/assets/3bednew.png";
 
 const rooms = [
   {
@@ -162,7 +162,7 @@ const Rooms = () => {
       </section> */}
 
       {/* Deposit Info */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container">
           <div className="bg-secondary rounded-2xl p-8 md:p-12">
             <div className="max-w-3xl mx-auto">
@@ -198,7 +198,7 @@ const Rooms = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
